@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+.container {
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.button-value-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary-btn {
+    height: 40px;
+    width: 100px;
+}
+
+.value {
+    width: 150px;
+}
+
+.game-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.p-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

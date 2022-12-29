@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeaceMallet</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to PeaceMallet</h1>
+        <button class="set-p-btn">Set Player Names</button>
+        <input type="text" placeholder="Player 1 Name" class="p-1-name-inpt">
+        <input type="text" placeholder="Player 2 Name" class="p-2-name-inpt">
+        <div class="game-info-container">
+            <div>
+                <h2>Battle Round</h2>
+                <div class="button-value-group battle-round-container">
+                    <button class="primary-btn">-</button>
+                    <p class="value battle-round-value">1</p>
+                    <button class="primary-btn">+</button>
+                </div>
+            </div>
+            <div>
+                <h2>Turn</h2>
+                <div class="button-value-group turn-container">
+                    <button class="primary-btn p1-btn">Player 1</button>
+                    <p class="value turn-value">Player 1</p>
+                    <button class="primary-btn p2-btn">Player 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-info-container">
+            <div>
+                <h2>Player 1 VP</h2>
+                <div class="button-value-group p1-vp-container">
+                    <button class="primary-btn" data-value=-1>-1</button>
+                    <button class="primary-btn" data-value=-5>-5</button>
+                    <p class="value p1-vp-value">0</p>
+                    <button class="primary-btn" data-value=1>+1</button>
+                    <button class="primary-btn" data-value=5>+5</button>
+                </div>
+            </div>
+            <div>
+                <h2>Player 1 CP</h2>
+                <div class="button-value-group p1-cp-container">
+                    <button class="primary-btn">-</button>
+                    <p class="value p1-cp-value">1</p>
+                    <button class="primary-btn">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-info-container">
+            <div>
+                <h2>Player 2 VP</h2>
+                <div class="button-value-group p2-vp-container">
+                    <button class="primary-btn" data-value=-1>-1</button>
+                    <button class="primary-btn" data-value=-5>-5</button>
+                    <p class="value p2-vp-value">0</p>
+                    <button class="primary-btn" data-value=1>+1</button>
+                    <button class="primary-btn" data-value=5>+5</button>
+                </div>
+            </div>
+            <div>
+                <h2>Player 2 CP</h2>
+                <div class="button-value-group p2-cp-container">
+                    <button class="primary-btn">-</button>
+                    <p class="value p2-cp-value">1</p>
+                    <button class="primary-btn">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
